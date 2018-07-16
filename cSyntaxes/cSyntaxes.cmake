@@ -7,6 +7,5 @@
 	add_executable(	auto src/storageClass/auto.c	)
 	add_executable(	const src/storageClass/const.c	)
 	add_executable(	extern src/storageClass/extern.c	)
-	add_executable(	header header/header.h	)
 	target_link_libraries( unsigned unsignedabc.a )
 	target_link_libraries ( unsigned  unsignedXYZ.so unsignedxxx.so )
