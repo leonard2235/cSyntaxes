@@ -8,5 +8,5 @@
 	add_executable(	const src/storageClass/const.c	)
 	add_executable(	extern src/storageClass/extern.c	)
 	add_executable(	header header/header.h	)
-	add_library( unsigned STATIC abc.a )
-	add_library( unsigned SHARED XYZ.so )
+	target_link_libraries( unsigned unsignedabc.a )
+	target_link_libraries ( unsigned  unsignedXYZ.so unsignedxxx.so )
